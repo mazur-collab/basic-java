@@ -1,4 +1,4 @@
-package com.hilel;
+package hilel;
 
 class Person {
     String name;

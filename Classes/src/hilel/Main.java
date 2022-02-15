@@ -1,4 +1,4 @@
-package com.hilel;
+package hilel;
 
 public class Main {
 

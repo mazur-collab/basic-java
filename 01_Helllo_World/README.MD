@@ -1,0 +1,96 @@
+# Install JDK
+## Download JDK
+Go to https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html and select one for your OS
+
+### To bypass registration
+```shell
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-aarch64_bin.deb
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-aarch64_bin.rpm
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-aarch64_bin.tar.gz
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-x64_bin.deb
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-x64_bin.rpm
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-x64_bin.tar.gz
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_osx-x64_bin.dmg
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_osx-x64_bin.tar.gz
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_solaris-sparcv9_bin.tar.gz
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_windows-x64_bin.exe
+curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_windows-x64_bin.zip
+```
+
+## Jshell
+
+go to the unpacked folder with your JDK. Useful commands:
+* `cd "path"` brings you to the mentioned path
+* `pwd` shows current location
+
+Open jshell which is at `<jdk_location>/bin/jshell` and type `System.out.println("Hello world of Java");`
+
+to exit type `/exit`
+
+## Compile and run 
+
+### Create Java class 
+Create your work directory and create a file(with `nano`, `gedit`, `edit`, `notepad`) 
+in subdirectory test1`HelloWorld.java` with the following content:
+```java
+package test1;
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Welcome " + args[0] + " to world of Java");
+    }
+}
+```
+Useful commands:
+* `mkdir` creates a directory
+* `&` at the end of command, makes the command run in background
+
+### Compile Java class 
+Create `target` folder and compile the class:
+```shell
+ <jdk_location>/bin/javac -d ./target ./test1/HelloWorld.java
+```
+Useful commands:
+* `ls` lists contain of the folder `-R` flag recursively lists subdirectory's content
+
+### Run your class
+```shell
+<jdk_location>/bin/java -cp ./target test1.HelloWorld "Your name"
+```
+
+# Prmitives 
+|Type	|Size (bits)	|Minimum	|Maximum	|Example|
+| ----- |:-------------:|:---------:|:---------:|:-----:|
+|byte	|8	|-2<sup>7</sup>|	2<sup>7</sup>– 1|	byte b = 100;|
+|short	|16	|-2<sup>15</sup>|	2<sup>15</sup>– 1|	short s = 30_000;|
+|int	|32	|-2<sup>31</sup>|	2<sup>31</sup>– 1|	int i = 100_000_000;|
+|long	|64	|-2<sup>63</sup>|	2<sup>63</sup>– 1|	long l = 100_000_000_000_000;|
+|float	|32	|-2<sup>-149</sup>|	(2-2<sup>-23</sup>)·2<sup>127</sup>|	float f = 1.456f;|
+|double	|64	|-2<sup>-1074</sup>|	(2-2<sup>-52</sup>)·2<sup>1023</sup>|	double f = 1.456789012345678;|
+|char	|16	|0	|2<sup>16</sup>– 1|	char c = ‘c';|
+|boolean|	1|	–|	–|	boolean b = true;|
+
+# Task
+
+## 1. Run
+```java
+package test2;
+
+import javax.swing.*;
+
+/**
+ * A bare bones graphical version of Hello World.
+ */
+public class HelloJava {
+    public static void main( String[] args ) {
+        JFrame frame = new JFrame( "Hello, Java!" );
+        JLabel label = new JLabel("Hello, Java!", JLabel.CENTER );
+        frame.add(label);
+        frame.setSize( 300, 300 );
+        frame.setVisible( true );
+    }
+}
+```
+## 2. Play with Jshell
+## 3. Read https://javascopes.com/java-primitives-3ba752e9/
+## 4. Register in Gitlab
+## 5. Install git
