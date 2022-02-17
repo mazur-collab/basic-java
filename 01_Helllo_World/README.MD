@@ -71,7 +71,7 @@ Useful commands:
 
 # Task
 
-## 1. Run
+## 1. Compile and Run
 ```java
 package test2;
 
