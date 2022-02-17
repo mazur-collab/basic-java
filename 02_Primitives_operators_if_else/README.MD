@@ -74,4 +74,4 @@ public class NameOfTheFile {
 8. `git status` this will show you added files
 9. `git commit -m "my first commit"`
 10. `git push origin 02_Primitives_operators_if_else`
-11. Create merge request
+11. Create merge request EX : https://gitlab.com/gregmazur/basic-java/-/merge_requests/1
