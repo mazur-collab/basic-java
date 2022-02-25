@@ -90,6 +90,7 @@ public class HelloJava {
     }
 }
 ```
+note that the class name and the file name should be same
 ## 2. Play with Jshell
 ## 3. Read https://javascopes.com/java-primitives-3ba752e9/
 ## 4. Register in Gitlab

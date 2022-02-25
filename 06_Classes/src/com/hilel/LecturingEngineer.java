@@ -1,4 +1,4 @@
-package hilel;
+package com.hilel;
 
 class LecturingEngineer extends Engineer {
     LecturingEngineer(String name, Skill[] skills, Skill[] skillsWantToHave) {
