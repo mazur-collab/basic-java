@@ -53,8 +53,8 @@ switch(no) {
 4. `git checkout -b 02_Primitives_operators_if_else`
 5. create a directory called `examples`
 6. **Add files with examples of:**
-   - **variable overloaded direct**
-   - **variable overloaded indirect**
+   - **variable overloaded**
+   - **variable casting**
    - **if/else** 
    - **ternary operator**
    - **switch**
