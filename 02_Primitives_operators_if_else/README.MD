@@ -71,6 +71,7 @@ public class NameOfTheFile {
 ```
 
 *NameOfTheFile should be changed
+
 7. `git add <filename>` to every created file
 8. `git status` this will show you added files
 9. `git commit -m "my first commit"`
