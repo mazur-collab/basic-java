@@ -1,20 +1,21 @@
 # Install JDK
 ## Download JDK
-Go to https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html and select one for your OS
+Go to https://www.oracle.com/java/technologies/downloads/#jdk17-linux and select one for your OS
 
 ### To bypass registration
 ```shell
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-aarch64_bin.deb
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-aarch64_bin.rpm
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-aarch64_bin.tar.gz
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-x64_bin.deb
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-x64_bin.rpm
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_linux-x64_bin.tar.gz
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_osx-x64_bin.dmg
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_osx-x64_bin.tar.gz
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_solaris-sparcv9_bin.tar.gz
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_windows-x64_bin.exe
-curl -L -b "oraclelicense=a" -O https://download.oracle.com/otn-pub/java/jdk/11.0.14%2B8/7e5bbbfffe8b45e59d52a96aacab2f04/jdk-11.0.14_windows-x64_bin.zip
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.rpm
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm
+wget https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.tar.gz
+wget https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.dmg
+wget https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.tar.gz
+wget https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.dmg
+wget https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip
+wget https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe
+wget https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
 ```
 
 ## Jshell
@@ -95,3 +96,4 @@ note that the class name and the file name should be same, also take a look at t
 ## 3. Read https://javascopes.com/java-primitives-3ba752e9/
 ## 4. Register in Gitlab
 ## 5. Install git
+https://git-scm.com/downloads

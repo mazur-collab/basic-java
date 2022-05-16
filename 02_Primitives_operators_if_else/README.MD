@@ -18,7 +18,7 @@ byte b = (byte) a;
 ### Assignment
 `= += -= *= /= %=`
 
-## If else and ternary operator
+## If else
 
 ```java
 boolean condition = false;
@@ -28,22 +28,6 @@ if (condition) {
         System.out.println("this will get printed");
 }
 
-int result = condition ? 1 : 0;
-
-```
-
-## Switch 
-
-```java
-int no = 3
-switch(no) {
-    case 1:
-        System.out.println("1");
-    case 3:
-        System.out.println("3");
-    default:
-        System.out.println("which one?");
-}
 ```
 
 # Task
