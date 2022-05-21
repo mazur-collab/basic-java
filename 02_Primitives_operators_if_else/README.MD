@@ -39,9 +39,7 @@ if (condition) {
 6. **Add files with examples of:**
    - **variable overloaded**
    - **variable casting**
-   - **if/else** 
-   - **ternary operator**
-   - **switch**
+   - **if/else**
     
 Files should be ready to compile like: 
 ```java
