@@ -57,8 +57,8 @@ default:
 # Task
 1. go to https://gitlab.com/gregmazur/basic-java and fork the repository
 2. `git clone https://gitlab.com/<your-name>/basic-java.git`
-3. go to the `02_Primitives_operators_if_else` dir
-4. `git checkout -b 02_Primitives_operators_if_else`
+3. go to the `03_switch_ternary` dir
+4. `git checkout -b 03_switch_ternary`
 5. create a directory called `examples`
 6. **Add files with examples of:**
     - **ternary operator**
