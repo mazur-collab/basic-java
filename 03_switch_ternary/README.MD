@@ -40,18 +40,21 @@ switch(no) {
 
 ### after Java 13
 ```java
-int no = 3;
-switch(no) {
+int result = switch (caseVal) {
     case 1:
-        System.out.println("1");
     case 3:
-        System.out.println("3");
-        break;
+        System.out.println("Print 1" );
+        yield 10;
     case 4:
-        System.out.println("4");
-default:
-        System.out.println("which one?");
-        }
+        System.out.println("Print 3" );
+        yield 20;
+    case 5:
+        System.out.println("Print 4" );
+        yield 40;
+    default:
+        System.out.println("Anything else");
+        yield 100;
+}
 ```
 
 # Task
