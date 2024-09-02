@@ -58,8 +58,8 @@ int result = switch (caseVal) {
 ```
 
 # Task
-1. go to https://gitlab.com/gregmazur/basic-java and fork the repository
-2. `git clone https://gitlab.com/<your-name>/basic-java.git`
+1. Fork this repository
+2. Clone your repository
 3. go to the `03_switch_ternary` dir
 4. `git checkout -b 03_switch_ternary`
 5. create a directory called `examples`

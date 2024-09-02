@@ -82,6 +82,3 @@ public class HelloJava {
 note that the class name and the file name should be same, also take a look at the package
 ## 2. Play with Jshell
 ## 3. Read https://javascopes.com/java-primitives-3ba752e9/
-## 4. Register in Gitlab
-## 5. Install git
-https://git-scm.com/downloads
