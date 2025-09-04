@@ -48,7 +48,7 @@ Useful commands:
 
 ## 1. Compile and Run
 ```java
-package test2;
+package test1;
 
 import javax.swing.*;
 
