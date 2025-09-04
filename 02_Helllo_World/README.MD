@@ -1,21 +1,8 @@
 # Install JDK
 ## Download JDK
-Go to https://www.oracle.com/java/technologies/downloads/#jdk17-linux and select one for your OS
+Go to https://www.oracle.com/ua/java/technologies/downloads/#jdk24-windows and select one for your OS probably "x64 Compressed Archive"
 
-### To bypass registration
-```shell
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.rpm
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm
-wget https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.tar.gz
-wget https://download.oracle.com/java/17/latest/jdk-17_macos-aarch64_bin.dmg
-wget https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.tar.gz
-wget https://download.oracle.com/java/17/latest/jdk-17_macos-x64_bin.dmg
-wget https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip
-wget https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe
-wget https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
+
 ```
 
 ## Jshell
