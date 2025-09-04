@@ -3,7 +3,6 @@
 Go to https://www.oracle.com/ua/java/technologies/downloads/#jdk24-windows and select one for your OS probably "x64 Compressed Archive"
 
 
-```
 
 ## Jshell
 
