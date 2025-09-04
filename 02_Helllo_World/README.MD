@@ -20,7 +20,6 @@ to exit type `/exit`
 Create your work directory and create a file(with `nano`, `gedit`, `edit`, `notepad`) 
 in subdirectory test1`HelloWorld.java` with the following content:
 ```java
-package test1;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Welcome " + args[0] + " to world of Java");
@@ -34,21 +33,20 @@ Useful commands:
 ### Compile Java class 
 Create `target` folder and compile the class:
 ```shell
- <jdk_location>/bin/javac -d ./target ./test1/HelloWorld.java
+ <jdk_location>/bin/javac -d ./target ./HelloWorld.java
 ```
 Useful commands:
 * `ls` lists contain of the folder `-R` flag recursively lists subdirectory's content
 
 ### Run your class
 ```shell
-<jdk_location>/bin/java -cp ./target test1.HelloWorld "Your name"
+<jdk_location>/bin/java -cp ./target HelloWorld "Your name"
 ```
 
 # Task
 
 ## 1. Compile and Run
 ```java
-package test1;
 
 import javax.swing.*;
 
